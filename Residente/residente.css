@@ -1,11 +1,17 @@
 body{
-    background-color: tomato;
-    font-family:prata; 
-    color: black;
-    
+    background-color: #DDFFBC;
+}
+th, label, a {
+    font-family: Verdana;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: "Prata";
+    font-size: 40px;
 }
 #main-container{
-    margin: 150px auto; 
+    margin: 100px auto; 
     width: 500px;;
 }
 table{
@@ -19,7 +25,7 @@ th, td{
 }
 
 thead{
-     background-color: rgb(0, 0, 0);
+     background-color: rgb(120, 176, 77);
      border-bottom:solid 5px red;
      color: white;
 }
@@ -29,4 +35,19 @@ tr:nth-child(even){
 tr:hover{
     background-color: #abadad;
     color: white;
+}
+.botones{
+    width: 180px;
+    height: 50px;
+    line-height: 40px;
+    border: 1px solid #91C788;
+    color: #FFFFFF;
+    background: gray;
+    border-radius: 35px;
+    font-family: "prata";
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+
 }
